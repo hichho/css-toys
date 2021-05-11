@@ -22,6 +22,7 @@
   "dependencies": {
     "@ant-design/pro-layout": "^6.5.0",
     "@umijs/preset-react": "1.x",
+    "react-document-title": "^2.0.3",
     "umi": "^3.4.19"
   },
   "devDependencies": {
