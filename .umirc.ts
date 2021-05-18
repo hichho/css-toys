@@ -6,7 +6,8 @@ export default defineConfig({
   },
   routes: [
     { path: '/', component: '@/pages/index' },
+    { path: '/modules/mac-dock', component: '@/pages/modules/mac-dock' },
   ],
   fastRefresh: {},
-  title:'css-toys'
+  title: 'css-toys',
 });
