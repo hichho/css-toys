@@ -12,6 +12,7 @@ export default function IndexPage() {
     // {name: "earth-revolves-around-the-sun", path: '/modules/earth-revolves-around-the-sun'},
     { name: 'earth-revolves-around-the-sun', path: '' },
     { name: "mac's dock", path: '/modules/mac-dock' },
+    { name: 'cyberpunk style button', path: '/modules/cyberpunk-button' },
   ];
 
   /**
@@ -43,9 +44,6 @@ export default function IndexPage() {
             </Flex>
           );
         })}
-      </Flex>
-      <Flex>
-        <audio id={'bgm'} src={'./music/crew.mp3'} autoPlay={true} />
       </Flex>
     </Flex>
   );
