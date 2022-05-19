@@ -8,6 +8,10 @@ export default defineConfig({
     { path: '/', component: '@/pages/index' },
     { path: '/modules/mac-dock', component: '@/pages/modules/mac-dock' },
     {
+      path: '/modules/liquid-background',
+      component: '@/pages/modules/liquid-background',
+    },
+    {
       path: '/modules/cyberpunk-button',
       component: '@/pages/modules/cyberpunk-button',
     },

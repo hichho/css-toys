@@ -1,8 +1,6 @@
-import React, { useEffect, useRef } from 'react';
+import React from 'react';
 import Flex from '@/pages/components/Flex';
 import less from './index.less';
-
-//TODO interface实现 引入react-dom
 
 export default function IndexPage() {
   /**
@@ -13,6 +11,7 @@ export default function IndexPage() {
     { name: 'earth-revolves-around-the-sun', path: '' },
     { name: "mac's dock", path: '/modules/mac-dock' },
     { name: 'cyberpunk style button', path: '/modules/cyberpunk-button' },
+    { name: 'liquid-background', path: '/modules/liquid-background' },
   ];
 
   /**
